@@ -1,0 +1,146 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+  
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+#navbarNavDropdown
+{
+padding-left: 2rem;
+}
+
+#drag-drop
+{
+    color: rgb(209, 115, 235);
+    max-width: 45rem;
+    max-height: 80rem;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+    border-style: dashed; 
+    border-width: 3px;
+    background: none;
+    display: flex;
+    
+}
+#drag-drop P
+{
+     align-items: center;
+     font-size: 20px;
+    margin-left: 80PX;
+    display: flex;
+    margin-top: 25px;
+    color: black;
+}
+
+
+#fileconverter
+{
+    font-family: 'Righteous', cursive;
+    color: rgb(209, 115, 235);
+    margin-top:150px; 
+    word-spacing: 10px;
+    font-weight: 800;
+    justify-content:center;
+    display: flex;
+
+}
+#Sub-heading
+{
+
+    margin-top:20px; 
+    word-spacing: 10px;
+    font-weight: 400;
+    justify-content: center;
+    display: flex;  
+    color: rgb(127, 127, 127);
+}
+#file
+{
+   margin-bottom:20px; 
+   width: 7rem;
+}
+.bg-image
+{
+    background-image: url('/static/5094386.jpg');
+    background-size:contain;
+    
+    height: 100vh;
+     background-repeat: no-repeat;
+    display: block;
+   
+    
+}
+#remove-btn
+{
+    
+    margin-left: 480px;
+    margin-top: -83px;
+    border-color: rgb(120, 120, 120);
+    color:rgb(120, 120, 120);
+   
+}
+#remove-btn:hover
+{
+    background-color: rgb(120, 120, 120);
+    color: WHITE;
+}
+#upload-btn
+{
+    margin-left: 590px;
+    margin-top: -132px;
+    border-color: rgb(209, 115, 235);
+    color:rgb(209, 115, 235);
+
+}
+#upload-btn:hover
+{
+    background-color:rgb(209, 115, 235) ;
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+@media only screen and (min-width: 960px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+    
+    
+  }
+  .dropdown:hover .dropdown-toggle::after {
+    border-bottom: 0.3em solid;
+    border-top: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .dropdown-toggle.show::after {
+    border-top: 0;
+    border-bottom: 0.3em solid;
+  }
+}
+#login:hover
+{
+  background-color:rgb(209, 115, 235) ;
+  color: white;
+}
+#signup:hover
+{
+  background-color:rgb(209, 115, 235) ;
+  color: white;
+}
+
